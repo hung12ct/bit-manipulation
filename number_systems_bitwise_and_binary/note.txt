@@ -1,2 +1,2 @@
-n >>= 1: this is equivalent to (n = n >> 1) OR (n = n/2)
+n >>= 1: this is equivalent to (n = n >> 1) OR (n = n/2 ^ 1)
 1 << n: this is equivalent to 1 * 2 ^ n
