@@ -1,14 +1,15 @@
-def solution(n):
-    if n == 0:
+def solution(num):
+    if num == 0:
         return 0
     ans = 0
-    while n & (1 << ans) == 0:
+    while (num >> ans) & 1 == 0:
         ans += 1
     return ans + 1
 
 
 def main():
-    print(solution(32))
+    num = 32
+    print(solution(num))
 
 
 if __name__ == "__main__":

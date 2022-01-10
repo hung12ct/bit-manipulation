@@ -1,0 +1,2 @@
+Logical right shift: a >>> b = a / 2 ^ b
+Arithmetic right shift: x >> y = x / 2 ^ y
